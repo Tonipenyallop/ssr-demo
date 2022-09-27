@@ -10,6 +10,7 @@ COPY next.config.js ./next.config.js
 COPY pages ./pages
 COPY public ./public
 COPY styles ./styles
+COPY .gitignore .
 
 
 RUN npm install
